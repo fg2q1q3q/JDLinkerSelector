@@ -46,14 +46,14 @@
         <View
             android:id="@+id/indicator"
             android:layout_width="0dp"
-            android:layout_height="0.6dp"
+            android:layout_height="2dp"
             android:background="#21b5f0" />
 
     </LinearLayout>
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
+        android:layout_height="0.6dp"
         android:background="#e8e8e8" />
 
     <FrameLayout
