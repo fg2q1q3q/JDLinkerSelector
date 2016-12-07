@@ -33,7 +33,7 @@ public class BottomDialog extends Dialog {
         Window window = getWindow();
         WindowManager.LayoutParams params = window.getAttributes();
         params.width = WindowManager.LayoutParams.MATCH_PARENT;
-        params.height = Dev.dp2px(context, 256);
+        params.height = Dev.dp2px(context, 352);
         window.setAttributes(params);
 
         window.setGravity(Gravity.BOTTOM);

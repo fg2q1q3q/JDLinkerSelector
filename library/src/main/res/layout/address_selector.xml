@@ -5,9 +5,19 @@
     android:background="@android:color/white"
     android:orientation="vertical">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
+        android:orientation="vertical"
         android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="12.5dp"
+            android:textSize="18sp"
+            android:textColor="#999999"
+            android:text="开发包类型" />
 
         <LinearLayout
             android:id="@+id/layout_tab"
@@ -37,10 +47,9 @@
             android:id="@+id/indicator"
             android:layout_width="0dp"
             android:layout_height="2dp"
-            android:layout_below="@+id/layout_tab"
-            android:background="@android:color/holo_red_light" />
+            android:background="#21b5f0" />
 
-    </RelativeLayout>
+    </LinearLayout>
 
     <View
         android:layout_width="match_parent"
